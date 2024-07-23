@@ -24,6 +24,9 @@ cors_domains =
 
 [history]
 
+[file_manager]
+enable_object_processing = True
+
 [update_manager]
 channel = dev
 refresh_interval = 168
@@ -81,12 +84,4 @@ type = git_repo
 path = ~/klipper-led_effect
 origin = https://github.com/julianschill/klipper-led_effect.git
 is_system_service = False
-
-[update_manager klipper_auto_speed]
-type = git_repo
-path = ~/klipper_auto_speed
-origin = https://github.com/anonoei/klipper_auto_speed.git
-primary_branch = main
-install_script = install.sh
-managed_services = klipper
 
